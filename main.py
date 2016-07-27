@@ -117,7 +117,7 @@ def main():
     data_by_year, metadata = extract_data_for_dicts_in_dict(american_data, topic_strings, return_meta_data=True)
     # print data_by_year, metadata
     data_frame = turn_yeardicts_into_dataframe(data_by_year)
-    write_to_csv(data_frame, 'American_econ_data_1.csv')
+    write_to_csv(data_frame, 'American_edu_data_1.csv')
     # cc means country code
     # ccode_cname_dict = read_in_ccds('country_code_data.csv')
 
